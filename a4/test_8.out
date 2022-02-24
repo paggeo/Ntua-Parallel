@@ -1,0 +1,41 @@
+Benchmark started on Sat Jan 15 14:30:10 EET 2022 in dungani
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 8x8
+Grid dimensions : 256x256
+GPU kernel version: naive
+Elapsed time: 27799.369141 ms
+Performance:  61.799493 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 8x8
+Grid dimensions : 256x256
+GPU kernel version: coalesced_A
+Elapsed time: 13692.391602 ms
+Performance:  125.470186 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 8x8
+Grid dimensions : 256x256
+GPU kernel version: reduced_global
+Elapsed time: 10826.574219 ms
+Performance:  158.682413 Gflop/s
+>>>> End of record <<<<
+Benchmark ended on Sat Jan 15 14:31:10 EET 2022 in dungani

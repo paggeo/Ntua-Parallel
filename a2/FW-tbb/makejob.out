@@ -1,0 +1,8 @@
+g++ -O3 -Wall -std=c++11 -DUSE_LAMBDAS -Wsign-compare  -I/home/parallel/pps/2021-2022/tbb/tbb_latest/include -c fw.cpp
+g++ -O3 -Wall -std=c++11 -DUSE_LAMBDAS -Wsign-compare  -I/home/parallel/pps/2021-2022/tbb/tbb_latest/include -c fw_sr_task.cpp
+g++ -O3 -Wall -std=c++11 -DUSE_LAMBDAS -Wsign-compare  -I/home/parallel/pps/2021-2022/tbb/tbb_latest/include -c fw_tiled_task.cpp
+g++ -O3 -Wall -std=c++11 -DUSE_LAMBDAS -Wsign-compare  -I/home/parallel/pps/2021-2022/tbb/tbb_latest/include -c fw_tiled_flow_graph.cpp
+g++  fw.o -o fw -L/home/parallel/pps/2021-2022/tbb/tbb_latest/build/linux_intel64_gcc_cc6.4.0_libc2.19_kernel4.0.4_release -ltbb -lrt
+g++  fw_sr_task.o -o fw_sr_task -L/home/parallel/pps/2021-2022/tbb/tbb_latest/build/linux_intel64_gcc_cc6.4.0_libc2.19_kernel4.0.4_release -ltbb -lrt
+g++  fw_tiled_task.o -o fw_tiled_task -L/home/parallel/pps/2021-2022/tbb/tbb_latest/build/linux_intel64_gcc_cc6.4.0_libc2.19_kernel4.0.4_release -ltbb -lrt
+g++  fw_tiled_flow_graph.o -o fw_tiled_flow_graph -L/home/parallel/pps/2021-2022/tbb/tbb_latest/build/linux_intel64_gcc_cc6.4.0_libc2.19_kernel4.0.4_release -ltbb -lrt

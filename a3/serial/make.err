@@ -1,0 +1,12 @@
+Jacobi_serial.c: In function 'main':
+Jacobi_serial.c:24:8: warning: unused variable 'converged' [-Wunused-variable]
+  int t,converged=0;
+        ^
+GaussSeidelSOR_serial.c: In function 'main':
+GaussSeidelSOR_serial.c:23:8: warning: unused variable 'converged' [-Wunused-variable]
+  int t,converged=0;
+        ^
+RedBlackSOR_serial.c: In function 'main':
+RedBlackSOR_serial.c:34:8: warning: unused variable 'converged' [-Wunused-variable]
+  int t,converged=0;
+        ^

@@ -1,0 +1,682 @@
+Benchmark started on Fri Jan 14 19:18:40 EET 2022 in dungani
+0 512 512 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 212.716644 ms
+Performance:  126.193913 Gflop/s
+>>>> End of record <<<<
+0 512 512 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 475.004822 ms
+Performance:  113.024308 Gflop/s
+>>>> End of record <<<<
+0 512 1024 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 482.927887 ms
+Performance:  111.169996 Gflop/s
+>>>> End of record <<<<
+0 512 1024 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 967.726685 ms
+Performance:  110.955070 Gflop/s
+>>>> End of record <<<<
+0 1024 512 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 415.552765 ms
+Performance:  129.194403 Gflop/s
+>>>> End of record <<<<
+0 1024 512 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 938.840271 ms
+Performance:  114.368957 Gflop/s
+>>>> End of record <<<<
+0 1024 1024 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 948.450378 ms
+Performance:  113.210121 Gflop/s
+>>>> End of record <<<<
+0 1024 1024 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: naive
+Checking ... PASSED!
+Elapsed time: 1887.525757 ms
+Performance:  113.772416 Gflop/s
+>>>> End of record <<<<
+1 512 512 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 252.428452 ms
+Performance:  106.341205 Gflop/s
+>>>> End of record <<<<
+1 512 512 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 519.040588 ms
+Performance:  103.435246 Gflop/s
+>>>> End of record <<<<
+1 512 1024 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 513.613037 ms
+Performance:  104.528287 Gflop/s
+>>>> End of record <<<<
+1 512 1024 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 1022.158875 ms
+Performance:  105.046471 Gflop/s
+>>>> End of record <<<<
+1 1024 512 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 490.329498 ms
+Performance:  109.491865 Gflop/s
+>>>> End of record <<<<
+1 1024 512 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 1005.323242 ms
+Performance:  106.805630 Gflop/s
+>>>> End of record <<<<
+1 1024 1024 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 1006.862976 ms
+Performance:  106.642299 Gflop/s
+>>>> End of record <<<<
+1 1024 1024 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: coalesced_A
+Checking ... PASSED!
+Elapsed time: 2020.698853 ms
+Performance:  106.274304 Gflop/s
+>>>> End of record <<<<
+2 512 512 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 81.108963 ms
+Performance:  330.956587 Gflop/s
+>>>> End of record <<<<
+2 512 512 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 161.688644 ms
+Performance:  332.039961 Gflop/s
+>>>> End of record <<<<
+2 512 1024 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 159.051834 ms
+Performance:  337.544622 Gflop/s
+>>>> End of record <<<<
+2 512 1024 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 315.595032 ms
+Performance:  340.227734 Gflop/s
+>>>> End of record <<<<
+2 1024 512 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 158.747940 ms
+Performance:  338.190790 Gflop/s
+>>>> End of record <<<<
+2 1024 512 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 315.278839 ms
+Performance:  340.568947 Gflop/s
+>>>> End of record <<<<
+2 1024 1024 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 318.862335 ms
+Performance:  336.741504 Gflop/s
+>>>> End of record <<<<
+2 1024 1024 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: reduced_global
+Checking ... PASSED!
+Elapsed time: 624.158020 ms
+Performance:  344.060891 Gflop/s
+>>>> End of record <<<<
+3 512 512 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: cublas
+Checking ... PASSED!
+Elapsed time: 184.081085 ms
+Performance:  145.824573 Gflop/s
+>>>> End of record <<<<
+3 512 512 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: cublas
+Checking ... PASSED!
+Elapsed time: 182.074753 ms
+Performance:  294.862909 Gflop/s
+>>>> End of record <<<<
+3 512 1024 512 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: cublas
+Checking ... FAILED!
+Elapsed time: 181.815353 ms
+Performance:  295.283595 Gflop/s
+>>>> End of record <<<<
+3 512 1024 1024 16
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: cublas
+Checking ... FAILED!
+Elapsed time: 202.363647 ms
+Performance:  530.600153 Gflop/s
+>>>> End of record <<<<
+3 1024 512 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: cublas
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+Checking ... FAILED!
+Elapsed time: 139.990433 ms
+Performance:  383.505431 Gflop/s
+>>>> End of record <<<<
+3 1024 512 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: cublas
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+ ** On entry to SGEMM  parameter number 8 had an illegal value
+Checking ... FAILED!
+Elapsed time: 141.245667 ms
+Performance:  760.194525 Gflop/s
+>>>> End of record <<<<
+3 1024 1024 512 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: cublas
+Checking ... PASSED!
+Elapsed time: 193.086853 ms
+Performance:  556.092664 Gflop/s
+>>>> End of record <<<<
+3 1024 1024 1024 16
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: cublas
+Checking ... PASSED!
+Elapsed time: 243.006042 ms
+Performance:  883.716152 Gflop/s
+>>>> End of record <<<<
+Benchmark ended on Fri Jan 14 19:21:13 EET 2022 in dungani

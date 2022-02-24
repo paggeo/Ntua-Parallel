@@ -1,0 +1,3 @@
+mpicc -O3 -lm -Wall -DPRINT_RESULTS Jacobi_mpi.c utils.c -o jacobi
+mpicc -O3 -lm -Wall -DPRINT_RESULTS GaussSeidelSOR_mpi.c utils.c -o seidelsor
+mpicc -O3 -lm -Wall -DPRINT_RESULTS RedBlackSOR_mpi.c utils.c -o redblacksor

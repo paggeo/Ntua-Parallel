@@ -1,0 +1,105 @@
+Jacobi_mpi.c: In function 'main':
+Jacobi_mpi.c:107:10: warning: assignment from incompatible pointer type
+   U_start=&(U[0][0]);
+          ^
+Jacobi_mpi.c:347:12: warning: assignment from incompatible pointer type
+    U_start = &(U[0][0]);
+            ^
+Jacobi_mpi.c:28:13: warning: unused variable 'status' [-Wunused-variable]
+  MPI_Status status;
+             ^
+Jacobi_mpi.c:18:38: warning: unused variable 'tcvf' [-Wunused-variable]
+  struct timeval tts,ttf,tcs,tcf,tcvs,tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                      ^
+Jacobi_mpi.c:18:33: warning: unused variable 'tcvs' [-Wunused-variable]
+  struct timeval tts,ttf,tcs,tcf,tcvs,tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                 ^
+Jacobi_mpi.c:16:9: warning: variable 'omega' set but not used [-Wunused-but-set-variable]
+  double omega;    //relaxation factor - useless for Jacobi
+         ^
+Jacobi_mpi.c:14:25: warning: unused variable 'converged' [-Wunused-variable]
+  int global_converged=0,converged=0; //flags for convergence, global and per process
+                         ^
+Jacobi_mpi.c:14:6: warning: unused variable 'global_converged' [-Wunused-variable]
+  int global_converged=0,converged=0; //flags for convergence, global and per process
+      ^
+Jacobi_mpi.c:359:4: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    MPI_Gatherv(&u_current[1][1], 1, local_block, U_start, scattercounts, scatteroffset, global_block, 0, MPI_COMM_WORLD);
+    ^
+Jacobi_mpi.c:359:4: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+Jacobi_mpi.c:127:2: warning: 'U_start' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Scatterv(U_start, scattercounts, scatteroffset, global_block, &(u_current[1][1]), 1, local_block, 0, MPI_COMM_WORLD);
+  ^
+Jacobi_mpi.c:139:3: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   free2d(U);
+   ^
+GaussSeidelSOR_mpi.c: In function 'main':
+GaussSeidelSOR_mpi.c:106:10: warning: assignment from incompatible pointer type
+   U_start=&(U[0][0]);
+          ^
+GaussSeidelSOR_mpi.c:368:12: warning: assignment from incompatible pointer type
+    U_start = &(U[0][0]);
+            ^
+GaussSeidelSOR_mpi.c:119:13: warning: unused variable 'current_status' [-Wunused-variable]
+  MPI_Status current_status[2];
+             ^
+GaussSeidelSOR_mpi.c:117:13: warning: unused variable 'prev_status' [-Wunused-variable]
+  MPI_Status prev_status[6];
+             ^
+GaussSeidelSOR_mpi.c:28:13: warning: unused variable 'status' [-Wunused-variable]
+  MPI_Status status;
+             ^
+GaussSeidelSOR_mpi.c:18:38: warning: unused variable 'tcvf' [-Wunused-variable]
+  struct timeval tts,ttf,tcs,tcf,tcvs,tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                      ^
+GaussSeidelSOR_mpi.c:18:33: warning: unused variable 'tcvs' [-Wunused-variable]
+  struct timeval tts,ttf,tcs,tcf,tcvs,tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                 ^
+GaussSeidelSOR_mpi.c:14:25: warning: unused variable 'converged' [-Wunused-variable]
+  int global_converged=0,converged=0; //flags for convergence, global and per process
+                         ^
+GaussSeidelSOR_mpi.c:14:6: warning: unused variable 'global_converged' [-Wunused-variable]
+  int global_converged=0,converged=0; //flags for convergence, global and per process
+      ^
+GaussSeidelSOR_mpi.c:380:4: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    MPI_Gatherv(&u_current[1][1], 1, local_block, U_start, scattercounts, scatteroffset, global_block, 0, MPI_COMM_WORLD);
+    ^
+GaussSeidelSOR_mpi.c:380:4: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+GaussSeidelSOR_mpi.c:131:2: warning: 'U_start' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Scatterv(U_start, scattercounts, scatteroffset, global_block, &(u_current[1][1]), 1, local_block, 0, MPI_COMM_WORLD);
+  ^
+GaussSeidelSOR_mpi.c:143:3: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   free2d(U);
+   ^
+RedBlackSOR_mpi.c: In function 'main':
+RedBlackSOR_mpi.c:107:10: warning: assignment from incompatible pointer type
+   U_start=&(U[0][0]);
+          ^
+RedBlackSOR_mpi.c:392:12: warning: assignment from incompatible pointer type
+    U_start = &(U[0][0]);
+            ^
+RedBlackSOR_mpi.c:28:13: warning: unused variable 'status' [-Wunused-variable]
+  MPI_Status status;
+             ^
+RedBlackSOR_mpi.c:18:38: warning: unused variable 'tcvf' [-Wunused-variable]
+  struct timeval tts,ttf,tcs,tcf,tcvs,tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                      ^
+RedBlackSOR_mpi.c:18:33: warning: unused variable 'tcvs' [-Wunused-variable]
+  struct timeval tts,ttf,tcs,tcf,tcvs,tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                 ^
+RedBlackSOR_mpi.c:14:25: warning: unused variable 'converged' [-Wunused-variable]
+  int global_converged=0,converged=0; //flags for convergence, global and per process
+                         ^
+RedBlackSOR_mpi.c:14:6: warning: unused variable 'global_converged' [-Wunused-variable]
+  int global_converged=0,converged=0; //flags for convergence, global and per process
+      ^
+RedBlackSOR_mpi.c:404:4: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    MPI_Gatherv(&u_current[1][1], 1, local_block, U_start, scattercounts, scatteroffset, global_block, 0, MPI_COMM_WORLD);
+    ^
+RedBlackSOR_mpi.c:404:4: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+RedBlackSOR_mpi.c:127:2: warning: 'U_start' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Scatterv(U_start, scattercounts, scatteroffset, global_block, &(u_current[1][1]), 1, local_block, 0, MPI_COMM_WORLD);
+  ^
+RedBlackSOR_mpi.c:139:3: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   free2d(U);
+   ^

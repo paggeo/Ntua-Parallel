@@ -1,0 +1,14 @@
+make -C common 
+make[1]: Entering directory `/home/parallel/parlab21/a4/common'
+cc  -DNDEBUG -c -Wall -std=gnu99 -O3 -c -o alloc.o alloc.c
+cc  -DNDEBUG -c -Wall -std=gnu99 -O3 -c -o error.o error.c
+make[1]: Leaving directory `/home/parallel/parlab21/a4/common'
+make -C cuda 
+make[1]: Entering directory `/home/parallel/parlab21/a4/cuda'
+cc -D__FLOAT_VALUES -DEPS=1e-4 -I../common -DNDEBUG -c -Wall -std=gnu99 -O3 -o dmm.o dmm.c
+/usr/local/cuda/bin/nvcc -D__FLOAT_VALUES -DEPS=1e-4 -I../common -DNDEBUG -I/usr/local/cuda/include -c -ccbin gcc -arch sm_35 -O3 --ptxas-options=-v -o dmm_gpu.o dmm_gpu.cu
+/usr/local/cuda/bin/nvcc -D__FLOAT_VALUES -DEPS=1e-4 -I../common -DNDEBUG -I/usr/local/cuda/include -c -ccbin gcc -arch sm_35 -O3 --ptxas-options=-v -o dmm_main.o dmm_main.cu
+/usr/local/cuda/bin/nvcc -D__FLOAT_VALUES -DEPS=1e-4 -I../common -DNDEBUG -I/usr/local/cuda/include -c -ccbin gcc -arch sm_35 -O3 --ptxas-options=-v -o gpu_util.o gpu_util.cu
+cc -D__FLOAT_VALUES -DEPS=1e-4 -I../common -DNDEBUG -c -Wall -std=gnu99 -O3 -o mat_util.o mat_util.c
+/usr/local/cuda/bin/nvcc -o dmm_main -L../common  ../common/alloc.o  ../common/error.o dmm.o dmm_gpu.o dmm_main.o gpu_util.o mat_util.o -L/usr/local/cuda/lib64 -lcudart -lcublas -lm
+make[1]: Leaving directory `/home/parallel/parlab21/a4/cuda'

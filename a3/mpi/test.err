@@ -1,0 +1,2 @@
+rm: cannot remove 'jacobi.txt': No such file or directory
+rm: cannot remove 'seidelsor.txt': No such file or directory

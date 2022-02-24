@@ -22,7 +22,13 @@ cd /home/parallel/parlab21/a1/
 for i in 1 2 4 6 8 
 do 
 	export OMP_NUM_THREADS=$i
+<<<<<<< HEAD
 	./Game_Of_Life 64 1000 >> test64.out
 	./Game_Of_Life 1024 1000 >> test1024.out
 	./Game_Of_Life 4096 1000 >> test4096.out
+=======
+	./Game_Of_Life 64 1000 >> game_of_life64.out
+	./Game_Of_Life 1024 1000 >> game_of_life1024.out
+	./Game_Of_Life 4096 1000 >> game_of_life4096.out
+>>>>>>> 914d66d (Init)
 done 

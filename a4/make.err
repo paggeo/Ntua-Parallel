@@ -1,0 +1,21 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z19dmm_gpu_coalesced_APKfS0_Pfmmm' for 'sm_35'
+ptxas info    : Function properties for _Z19dmm_gpu_coalesced_APKfS0_Pfmmm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 37 registers, 4096 bytes smem, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z13dmm_gpu_naivePKfS0_Pfmmm' for 'sm_35'
+ptxas info    : Function properties for _Z13dmm_gpu_naivePKfS0_Pfmmm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 21 registers, 368 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z22dmm_gpu_reduced_globalPKfS0_Pfmmm' for 'sm_35'
+ptxas info    : Function properties for _Z22dmm_gpu_reduced_globalPKfS0_Pfmmm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, 8192 bytes smem, 368 bytes cmem[0]
+make[1]: Warning: File `dmm_main.cu' has modification time 27 s in the future
+dmm_main.cu(29): warning: function "check_result" was declared but never referenced
+
+dmm_main.cu(29): warning: function "check_result" was declared but never referenced
+
+ptxas info    : 0 bytes gmem
+ptxas info    : 0 bytes gmem
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.

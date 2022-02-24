@@ -1,0 +1,9 @@
+Number of threads: 1
+FW,4096,144.9878
+FW_SR,4096,32,97.9560
+Number of threads: 2
+FW,4096,77.1611
+FW_SR,4096,32,97.9639
+Number of threads: 64
+FW,4096,19.3164
+FW_SR,4096,32,98.4514

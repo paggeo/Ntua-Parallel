@@ -1,0 +1,72 @@
+In file included from fw.cpp:10:0:
+/home/parallel/pps/2021-2022/tbb/tbb_latest/include/tbb/task_scheduler_init.h:21:154: note: #pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+ #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.")
+                                                                                                                                                          ^
+fw.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fw.cpp:20:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+               ~^~
+fw.cpp:21:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                  ~^~
+fw.cpp:24:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+               ~^~
+In file included from fw_sr_task.cpp:13:0:
+/home/parallel/pps/2021-2022/tbb/tbb_latest/include/tbb/task.h:21:139: note: #pragma message: TBB Warning: tbb/task.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+ #pragma message("TBB Warning: tbb/task.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.")
+                                                                                                                                           ^
+In file included from fw_sr_task.cpp:15:0:
+/home/parallel/pps/2021-2022/tbb/tbb_latest/include/tbb/task_scheduler_init.h:21:154: note: #pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+ #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.")
+                                                                                                                                                          ^
+fw_sr_task.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fw_sr_task.cpp:29:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+               ~^~
+fw_sr_task.cpp:30:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                  ~^~
+fw_sr_task.cpp:33:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+               ~^~
+fw_sr_task.cpp: In function 'int main(int, char**)':
+fw_sr_task.cpp:41:12: warning: unused variable 'j' [-Wunused-variable]
+      int i,j;
+            ^
+In file included from fw_tiled_task.cpp:5:0:
+/home/parallel/pps/2021-2022/tbb/tbb_latest/include/tbb/task.h:21:139: note: #pragma message: TBB Warning: tbb/task.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+ #pragma message("TBB Warning: tbb/task.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.")
+                                                                                                                                           ^
+In file included from fw_tiled_task.cpp:7:0:
+/home/parallel/pps/2021-2022/tbb/tbb_latest/include/tbb/task_scheduler_init.h:21:154: note: #pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+ #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.")
+                                                                                                                                                          ^
+fw_tiled_task.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fw_tiled_task.cpp:17:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+               ~^~
+fw_tiled_task.cpp:18:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                  ~^~
+fw_tiled_task.cpp:21:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+               ~^~
+In file included from fw_tiled_flow_graph.cpp:12:0:
+/home/parallel/pps/2021-2022/tbb/tbb_latest/include/tbb/task_scheduler_init.h:21:154: note: #pragma message: TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.
+ #pragma message("TBB Warning: tbb/task_scheduler_init.h is deprecated. For details, please see Deprecated Features appendix in the TBB reference manual.")
+                                                                                                                                                          ^
+fw_tiled_flow_graph.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fw_tiled_flow_graph.cpp:24:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+               ~^~
+fw_tiled_flow_graph.cpp:25:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                  ~^~
+fw_tiled_flow_graph.cpp:28:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+               ~^~
+fw_tiled_flow_graph.cpp: In function 'int main(int, char**)':
+fw_tiled_flow_graph.cpp:36:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,k;
+        ^

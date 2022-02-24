@@ -1,0 +1,3 @@
+Jacobi X 1024 Y 1024 Iter 255 Time 1.859848 midpoint 0.000000
+RedBlackSOR X 1024 Y 1024 Iter 255 Time 3.294467 midpoint 0.000000
+GaussSeidelSOR X 1024 Y 1024 Iter 255 Time 3.033163 midpoint 0.788208

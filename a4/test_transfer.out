@@ -1,0 +1,962 @@
+Benchmark started on Sat Jan 15 16:48:16 EET 2022 in dungani
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: reduced_global
+Transfer time: 0.553824 ms
+Performance:	1.893338 Gbytes/s
+Elapsed time: 36.177822 ms
+Performance:  92.748623 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: reduced_global
+Transfer time: 0.817440 ms
+Performance:	1.924134 Gbytes/s
+Elapsed time: 67.458366 ms
+Performance:  99.481899 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: reduced_global
+Transfer time: 1.353312 ms
+Performance:	1.937055 Gbytes/s
+Elapsed time: 138.396866 ms
+Performance:  96.980323 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: reduced_global
+Transfer time: 1.976224 ms
+Performance:	2.387681 Gbytes/s
+Elapsed time: 245.186661 ms
+Performance:  109.482080 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: reduced_global
+Transfer time: 0.942080 ms
+Performance:	1.947826 Gbytes/s
+Elapsed time: 64.609055 ms
+Performance:  103.869132 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: reduced_global
+Transfer time: 1.324960 ms
+Performance:	1.978505 Gbytes/s
+Elapsed time: 126.923485 ms
+Performance:  105.746961 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: reduced_global
+Transfer time: 1.934720 ms
+Performance:	2.167913 Gbytes/s
+Elapsed time: 239.545151 ms
+Performance:  112.060484 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: reduced_global
+Transfer time: 2.882688 ms
+Performance:	2.546246 Gbytes/s
+Elapsed time: 466.115997 ms
+Performance:  115.179680 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: reduced_global
+Transfer time: 1.719264 ms
+Performance:	1.982169 Gbytes/s
+Elapsed time: 119.733406 ms
+Performance:  112.097143 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: reduced_global
+Transfer time: 2.147008 ms
+Performance:	2.197752 Gbytes/s
+Elapsed time: 232.642776 ms
+Performance:  115.385253 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: reduced_global
+Transfer time: 3.077760 ms
+Performance:	2.384862 Gbytes/s
+Elapsed time: 462.372986 ms
+Performance:  116.112084 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: reduced_global
+Transfer time: 4.705344 ms
+Performance:	2.674175 Gbytes/s
+Elapsed time: 920.800842 ms
+Performance:  116.609561 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: reduced_global
+Transfer time: 2.659104 ms
+Performance:	2.464589 Gbytes/s
+Elapsed time: 227.046692 ms
+Performance:  118.229186 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: reduced_global
+Transfer time: 3.475744 ms
+Performance:	2.564313 Gbytes/s
+Elapsed time: 449.940918 ms
+Performance:  119.320313 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: reduced_global
+Transfer time: 5.059456 ms
+Performance:	2.694260 Gbytes/s
+Elapsed time: 882.510620 ms
+Performance:  121.668997 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: reduced_global
+Transfer time: 8.000544 ms
+Performance:	2.883388 Gbytes/s
+Elapsed time: 1766.928467 ms
+Performance:  121.537668 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: reduced_global
+Transfer time: 0.931392 ms
+Performance:	1.970178 Gbytes/s
+Elapsed time: 63.675232 ms
+Performance:  105.392414 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: reduced_global
+Transfer time: 1.327520 ms
+Performance:	1.974690 Gbytes/s
+Elapsed time: 123.041534 ms
+Performance:  109.083269 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: reduced_global
+Transfer time: 1.890944 ms
+Performance:	2.218101 Gbytes/s
+Elapsed time: 239.121063 ms
+Performance:  112.259227 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: reduced_global
+Transfer time: 2.878528 ms
+Performance:	2.549925 Gbytes/s
+Elapsed time: 458.792267 ms
+Performance:  117.018300 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: reduced_global
+Transfer time: 1.577504 ms
+Performance:	1.994117 Gbytes/s
+Elapsed time: 119.938141 ms
+Performance:  111.905793 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: reduced_global
+Transfer time: 2.092256 ms
+Performance:	2.004680 Gbytes/s
+Elapsed time: 232.210663 ms
+Performance:  115.599970 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: reduced_global
+Transfer time: 2.693664 ms
+Performance:	2.335650 Gbytes/s
+Elapsed time: 462.579956 ms
+Performance:  116.060133 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: reduced_global
+Transfer time: 4.076928 ms
+Performance:	2.571976 Gbytes/s
+Elapsed time: 920.740601 ms
+Performance:  116.617191 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: reduced_global
+Transfer time: 2.491200 ms
+Performance:	2.315016 Gbytes/s
+Elapsed time: 226.914108 ms
+Performance:  118.298266 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: reduced_global
+Transfer time: 3.058592 ms
+Performance:	2.399808 Gbytes/s
+Elapsed time: 450.595581 ms
+Performance:  119.146955 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: reduced_global
+Transfer time: 4.045536 ms
+Performance:	2.591933 Gbytes/s
+Elapsed time: 882.415161 ms
+Performance:  121.682160 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: reduced_global
+Transfer time: 6.008160 ms
+Performance:	2.792405 Gbytes/s
+Elapsed time: 1763.977417 ms
+Performance:  121.740994 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: reduced_global
+Transfer time: 4.092096 ms
+Performance:	2.690564 Gbytes/s
+Elapsed time: 447.411713 ms
+Performance:  119.994827 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: reduced_global
+Transfer time: 5.029728 ms
+Performance:	2.710184 Gbytes/s
+Elapsed time: 884.217041 ms
+Performance:  121.434193 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: reduced_global
+Transfer time: 6.643936 ms
+Performance:	2.840841 Gbytes/s
+Elapsed time: 1752.846069 ms
+Performance:  122.514104 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: reduced_global
+Transfer time: 9.959392 ms
+Performance:	2.947984 Gbytes/s
+Elapsed time: 3514.155029 ms
+Performance:  122.219061 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: reduced_global
+Transfer time: 1.699136 ms
+Performance:	2.005650 Gbytes/s
+Elapsed time: 118.658173 ms
+Performance:  113.112923 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: reduced_global
+Transfer time: 2.129888 ms
+Performance:	2.215418 Gbytes/s
+Elapsed time: 232.201950 ms
+Performance:  115.604307 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: reduced_global
+Transfer time: 3.038464 ms
+Performance:	2.415705 Gbytes/s
+Elapsed time: 461.734619 ms
+Performance:  116.272614 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: reduced_global
+Transfer time: 4.701984 ms
+Performance:	2.676086 Gbytes/s
+Elapsed time: 919.540039 ms
+Performance:  116.769448 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: reduced_global
+Transfer time: 2.467392 ms
+Performance:	2.337354 Gbytes/s
+Elapsed time: 226.866882 ms
+Performance:  118.322892 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: reduced_global
+Transfer time: 3.025600 ms
+Performance:	2.425976 Gbytes/s
+Elapsed time: 447.548950 ms
+Performance:  119.958032 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: reduced_global
+Transfer time: 4.023392 ms
+Performance:	2.606199 Gbytes/s
+Elapsed time: 705.923706 ms
+Performance:  152.104514 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: reduced_global
+Transfer time: 6.047552 ms
+Performance:	2.774216 Gbytes/s
+Elapsed time: 629.047913 ms
+Performance:  341.386340 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: reduced_global
+Transfer time: 4.033184 ms
+Performance:	2.599871 Gbytes/s
+Elapsed time: 155.837753 ms
+Performance:  344.506322 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: reduced_global
+Transfer time: 4.669440 ms
+Performance:	2.694737 Gbytes/s
+Elapsed time: 313.888458 ms
+Performance:  342.077511 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: reduced_global
+Transfer time: 6.000160 ms
+Performance:	2.796128 Gbytes/s
+Elapsed time: 625.164185 ms
+Performance:  343.507146 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: reduced_global
+Transfer time: 8.633088 ms
+Performance:	2.915043 Gbytes/s
+Elapsed time: 1245.854248 ms
+Performance:  344.740751 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: reduced_global
+Transfer time: 6.972192 ms
+Performance:	2.857487 Gbytes/s
+Elapsed time: 311.608673 ms
+Performance:  344.580211 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: reduced_global
+Transfer time: 7.937568 ms
+Performance:	2.906265 Gbytes/s
+Elapsed time: 619.444214 ms
+Performance:  346.679104 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: reduced_global
+Transfer time: 9.925888 ms
+Performance:	2.957935 Gbytes/s
+Elapsed time: 1234.409302 ms
+Performance:  347.937049 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: reduced_global
+Transfer time: 13.890400 ms
+Performance:	3.019570 Gbytes/s
+Elapsed time: 2465.722168 ms
+Performance:  348.373986 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: reduced_global
+Transfer time: 2.664640 ms
+Performance:	2.459469 Gbytes/s
+Elapsed time: 79.228516 ms
+Performance:  338.811669 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: reduced_global
+Transfer time: 3.462816 ms
+Performance:	2.573887 Gbytes/s
+Elapsed time: 158.885529 ms
+Performance:  337.897930 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: reduced_global
+Transfer time: 5.046592 ms
+Performance:	2.701127 Gbytes/s
+Elapsed time: 316.552734 ms
+Performance:  339.198404 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: reduced_global
+Transfer time: 8.021632 ms
+Performance:	2.875808 Gbytes/s
+Elapsed time: 628.100586 ms
+Performance:  341.901233 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: reduced_global
+Transfer time: 4.067680 ms
+Performance:	2.706714 Gbytes/s
+Elapsed time: 155.869797 ms
+Performance:  344.435499 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: reduced_global
+Transfer time: 5.015136 ms
+Performance:	2.718070 Gbytes/s
+Elapsed time: 312.743683 ms
+Performance:  343.329660 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: reduced_global
+Transfer time: 6.665696 ms
+Performance:	2.831567 Gbytes/s
+Elapsed time: 624.426147 ms
+Performance:  343.913152 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: reduced_global
+Transfer time: 9.954880 ms
+Performance:	2.949320 Gbytes/s
+Elapsed time: 1244.286743 ms
+Performance:  345.175043 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: reduced_global
+Transfer time: 6.931136 ms
+Performance:	2.874412 Gbytes/s
+Elapsed time: 310.441010 ms
+Performance:  345.876283 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: reduced_global
+Transfer time: 7.937024 ms
+Performance:	2.906464 Gbytes/s
+Elapsed time: 619.936768 ms
+Performance:  346.403659 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: reduced_global
+Transfer time: 9.917632 ms
+Performance:	2.960397 Gbytes/s
+Elapsed time: 1235.114746 ms
+Performance:  347.738322 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: reduced_global
+Transfer time: 13.880192 ms
+Performance:	3.021791 Gbytes/s
+Elapsed time: 2465.962646 ms
+Performance:  348.340013 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: reduced_global
+Transfer time: 12.466272 ms
+Performance:	3.028069 Gbytes/s
+Elapsed time: 620.466736 ms
+Performance:  346.107780 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: reduced_global
+Transfer time: 13.777760 ms
+Performance:	3.044257 Gbytes/s
+Elapsed time: 1236.176636 ms
+Performance:  347.439611 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: reduced_global
+Transfer time: 16.407167 ms
+Performance:	3.067662 Gbytes/s
+Elapsed time: 2464.610107 ms
+Performance:  348.531176 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: reduced_global
+Transfer time: 21.696415 ms
+Performance:	3.093085 Gbytes/s
+Elapsed time: 4924.214844 ms
+Performance:  348.885451 Gflop/s
+>>>> End of record <<<<
+Benchmark ended on Sat Jan 15 16:49:53 EET 2022 in dungani

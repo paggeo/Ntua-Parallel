@@ -1,0 +1,4 @@
+rm -f linked_list
+gcc -Wall -Wextra -pthread -Wint-conversion -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wint-conversion main.c ll_opt.c ../common/aff.c -o linked_list
+rm -f linked_list
+gcc -Wall -Wextra -pthread -Wint-conversion -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wint-conversion main.c ll_lazy.c ../common/aff.c -o linked_list

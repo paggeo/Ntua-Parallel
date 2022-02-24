@@ -1,0 +1,3 @@
+gcc util.o fw.c -o fw -Wall -O3 -Wno-unused-variable
+gcc util.o fw_sr.c -o fw_sr -Wall -O3 -Wno-unused-variable
+gcc util.o fw_tiled.c -o fw_tiled -Wall -O3 -Wno-unused-variable

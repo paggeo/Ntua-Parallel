@@ -125,7 +125,11 @@ void init_random(int ** array1, int ** array2, int N) {
 void print_to_pgm(int ** array, int N, int t) {
 	int i,j;
 	char * s = malloc(30*sizeof(char));
+<<<<<<< HEAD
 	sprintf(s,"out%d.pgm",t);
+=======
+	sprintf(s,"out%04d.pgm",t);
+>>>>>>> 914d66d (Init)
 	FILE * f = fopen(s,"wb");
 	fprintf(f, "P5\n%d %d 1\n", N,N);
 	for ( i = 0; i < N ; i++ ) 

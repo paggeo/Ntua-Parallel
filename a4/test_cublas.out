@@ -1,0 +1,834 @@
+Benchmark started on Sat Jan 15 16:38:34 EET 2022 in dungani
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: cublas
+Elapsed time: 144.797791 ms
+Performance:  23.173304 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: cublas
+Elapsed time: 149.271591 ms
+Performance:  44.957559 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: cublas
+Elapsed time: 156.053375 ms
+Performance:  86.007578 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x8
+GPU kernel version: cublas
+Elapsed time: 173.577316 ms
+Performance:  154.648926 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: cublas
+Elapsed time: 144.517639 ms
+Performance:  46.436452 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: cublas
+Elapsed time: 155.087646 ms
+Performance:  86.543146 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: cublas
+Elapsed time: 167.567520 ms
+Performance:  160.195398 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x8
+GPU kernel version: cublas
+Elapsed time: 191.367416 ms
+Performance:  280.544579 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: cublas
+Elapsed time: 154.694656 ms
+Performance:  86.763002 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: cublas
+Elapsed time: 154.113113 ms
+Performance:  174.180801 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: cublas
+Elapsed time: 180.559906 ms
+Performance:  297.336725 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x8
+GPU kernel version: cublas
+Elapsed time: 214.127289 ms
+Performance:  501.450249 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: cublas
+Elapsed time: 156.977631 ms
+Performance:  171.002362 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: cublas
+Elapsed time: 177.047256 ms
+Performance:  303.235940 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: cublas
+Elapsed time: 201.256058 ms
+Performance:  533.520251 Gflop/s
+>>>> End of record <<<<
+Dimension M: 256
+Adjusted dimension M: 256
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x8
+GPU kernel version: cublas
+Elapsed time: 255.894272 ms
+Performance:  839.207393 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: cublas
+Elapsed time: 149.386566 ms
+Performance:  44.922958 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: cublas
+Elapsed time: 149.451523 ms
+Performance:  89.806865 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: cublas
+Elapsed time: 166.124359 ms
+Performance:  161.587053 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x16
+GPU kernel version: cublas
+Elapsed time: 184.576187 ms
+Performance:  290.866834 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: cublas
+Elapsed time: 144.342758 ms
+Performance:  92.985426 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: cublas
+Elapsed time: 153.149185 ms
+Performance:  175.277104 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: cublas
+Elapsed time: 172.364838 ms
+Performance:  311.473569 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x16
+GPU kernel version: cublas
+Elapsed time: 199.575104 ms
+Performance:  538.013912 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: cublas
+Elapsed time: 166.015289 ms
+Performance:  161.693213 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: cublas
+Elapsed time: 170.644455 ms
+Performance:  314.613746 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: cublas
+Elapsed time: 207.746490 ms
+Performance:  516.851968 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x16
+GPU kernel version: cublas
+Elapsed time: 251.981827 ms
+Performance:  852.237511 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: cublas
+Elapsed time: 182.557785 ms
+Performance:  294.082727 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: cublas
+Elapsed time: 199.881439 ms
+Performance:  537.189360 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: cublas
+Elapsed time: 253.429214 ms
+Performance:  847.370203 Gflop/s
+>>>> End of record <<<<
+Dimension M: 512
+Adjusted dimension M: 512
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x16
+GPU kernel version: cublas
+Elapsed time: 336.365540 ms
+Performance:  1276.874944 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: cublas
+Elapsed time: 161.744858 ms
+Performance:  82.981141 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: cublas
+Elapsed time: 167.854462 ms
+Performance:  159.921549 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: cublas
+Elapsed time: 174.166245 ms
+Performance:  308.251989 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x32
+GPU kernel version: cublas
+Elapsed time: 203.259644 ms
+Performance:  528.261196 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: cublas
+Elapsed time: 155.432220 ms
+Performance:  172.702581 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: cublas
+Elapsed time: 175.667038 ms
+Performance:  305.618469 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: cublas
+Elapsed time: 189.623642 ms
+Performance:  566.248920 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x32
+GPU kernel version: cublas
+Elapsed time: 254.611389 ms
+Performance:  843.435816 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: cublas
+Elapsed time: 167.274811 ms
+Performance:  320.951439 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: cublas
+Elapsed time: 194.740829 ms
+Performance:  551.369647 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: cublas
+Elapsed time: 239.341309 ms
+Performance:  897.247391 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x32
+GPU kernel version: cublas
+Elapsed time: 344.481445 ms
+Performance:  1246.792056 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: cublas
+Elapsed time: 198.216095 ms
+Performance:  541.702642 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: cublas
+Elapsed time: 229.236740 ms
+Performance:  936.797324 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: cublas
+Elapsed time: 293.143188 ms
+Performance:  1465.143133 Gflop/s
+>>>> End of record <<<<
+Dimension M: 1024
+Adjusted dimension M: 1024
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x32
+GPU kernel version: cublas
+Elapsed time: 436.788086 ms
+Performance:  1966.613758 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: cublas
+Elapsed time: 162.529510 ms
+Performance:  165.161056 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: cublas
+Elapsed time: 170.703842 ms
+Performance:  314.504293 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: cublas
+Elapsed time: 193.118942 ms
+Performance:  556.000262 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 256
+Adjusted dimension N: 256
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 8x64
+GPU kernel version: cublas
+Elapsed time: 244.680862 ms
+Performance:  877.667189 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: cublas
+Elapsed time: 178.994400 ms
+Performance:  299.937267 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: cublas
+Elapsed time: 211.445404 ms
+Performance:  507.810434 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: cublas
+Elapsed time: 242.425156 ms
+Performance:  885.833668 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 512
+Adjusted dimension N: 512
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 16x64
+GPU kernel version: cublas
+Elapsed time: 332.884796 ms
+Performance:  1290.226332 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: cublas
+Elapsed time: 191.051041 ms
+Performance:  562.018307 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: cublas
+Elapsed time: 223.552414 ms
+Performance:  960.617517 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: cublas
+Elapsed time: 310.178436 ms
+Performance:  1384.676300 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 1024
+Adjusted dimension N: 1024
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 32x64
+GPU kernel version: cublas
+Elapsed time: 439.475067 ms
+Performance:  1954.589745 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 256
+Adjusted dimension K: 256
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: cublas
+Elapsed time: 233.585312 ms
+Performance:  919.357313 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 512
+Adjusted dimension K: 512
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: cublas
+Elapsed time: 318.943451 ms
+Performance:  1346.623448 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 1024
+Adjusted dimension K: 1024
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: cublas
+Elapsed time: 453.921539 ms
+Performance:  1892.383121 Gflop/s
+>>>> End of record <<<<
+Dimension M: 2048
+Adjusted dimension M: 2048
+Dimension N: 2048
+Adjusted dimension N: 2048
+Dimension K: 2048
+Adjusted dimension K: 2048
+>>>> Begin of record <<<<
+Block dimensions: 32x32
+Grid dimensions : 64x64
+GPU kernel version: cublas
+Elapsed time: 727.147888 ms
+Performance:  2362.637568 Gflop/s
+>>>> End of record <<<<
+Benchmark ended on Sat Jan 15 16:41:34 EET 2022 in dungani
